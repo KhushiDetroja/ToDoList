@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #D6DAC8;
+  /* background: linear-gradient(to right, #FFF1DB, #D4BDAC); */
+  color: white;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  color: #01204E;
+  font-size: 5rem;
+  text-align: center;
+  padding: 50px;
+}
+
+#todo-text {
+  color: black;
+}
+
+button {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#add-btn {
+  background-color: #3C5B6F;
+}
+
+#add-btn:active {
+  background-color: #E7DFD5;
+}
+
+#bottom-btn {
+  margin: 1rem;
+}
+
+#active-btn {
+  background-color: #758694;
+}
+
+#active-btn:active {
+  background-color: #E7DFD5;
+}
+
+#complete-btn {
+  background-color: #7EACB5;
+}
+
+#complete-btn:active {
+  background-color: #E7DFD5;
+}
+
+#main_div {
+  background-color: #F9F5E7;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+#toggle-btn {
+  background-color: #94A684;
+}
+
+#toggle-btn:active {
+  background-color: #E7DFD5;
+}
+
+#edit-btn {
+  background-color: #C08261;
+}
+
+#edit-btn:active {
+  background-color: #E7DFD5;
+}
+
+#delete-btn {
+  background-color: #9A3B3B;
+}
+
+#delete-btn:active {
+  background-color: #E7DFD5;
+}
+
+#main_input, #input_list{
+  font-size: 1.5rem;
+}
+
+
+
